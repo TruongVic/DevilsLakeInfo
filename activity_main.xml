@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/devilslake_119"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Devil's Lake State Park"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="State Park in Baraboo, Wisconsin"
+            android:textColor="#9e9e9e"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="16dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="Visitor Center: 8AM - 11PM - Summer"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="16dp"
+            android:text="Hours:"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="40dp"
+            android:text="Park Hours: 6AM - 11PM Daily"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="40dp"
+            android:text="Visitor Center: 8AM - 11PM - Summer "
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="132dp"
+            android:text="8AM - 5PM - All Other Seasons"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="16dp"
+            android:text="Address:"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Devil’s Lake State Park \nS5975 Park Rd.\nBaraboo WI 53913-9299"
+            android:layout_marginLeft="40dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily Entry Fee (aka 'stickers')"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resident – $13.00 \nResident Sr. Rate – $3.00\nNon-Resident – $16.00"
+            android:layout_marginLeft="40dp"
+            android:textColor="#000000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Photos:"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/devilslake_34" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/devilslake_59" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/devilslake_71" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/devilslake_92" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/devilslake_120" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
